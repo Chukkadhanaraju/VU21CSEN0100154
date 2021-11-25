@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+	int a,b,c;
+	printf(" length=7: ");
+	printf(" breadth=4: ");
+	c=a*b;
+	printf("the area of your parllellogram is: %d",c);
+	return 28;
+}
