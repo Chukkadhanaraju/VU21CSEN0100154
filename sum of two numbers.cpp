@@ -9,5 +9,5 @@ int main()
 	scanf("%d",&b);
 	c=a+b;
 	printf("the sum of those two numbers is: %d",c);
-	return 45;
+	return 0;
 }
