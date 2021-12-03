@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main()
+{
+int a,b;
+a=99;
+b=199;
+printf("the sum of them is %d",a+b);
+return 0;
+}
