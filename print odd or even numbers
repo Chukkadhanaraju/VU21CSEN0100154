@@ -1,0 +1,23 @@
+#include <stdio.h>
+void evenorodd(int cur, int limit);
+int main()
+{
+    int a, b;
+    printf("Enter frist: ");
+    scanf("%d", &a);
+    printf("Enter second: ");
+    scanf("%d", &b); 
+    printf("Even/odd Numbers from %d to %d are: ", a, b);
+    evenorodd(a, b); 
+    
+    return 0;
+}
+void evenorodd(int cur, int limit)
+{
+    if(cur > limit)
+        return;
+    
+    printf("%d, ", cur);
+    
+    evenorodd(cur + 2, limit);
+}
