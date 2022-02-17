@@ -1,0 +1,16 @@
+#include<stdio.h>
+void main(){
+ int i,age;
+ char name[15];
+ FILE *fp;
+ fp=fopen("data1.txt","w");
+ 
+ printf("Input an integer");
+ scanf("%d",&i);
+ printf("Enter your name:");
+ scanf("%s",name);
+ printf("Enter your age:");
+ scanf("%d",&age);
+ fprintf(fp,"%d\n%s\n%d",i,name,age);
+ fclose(fp);
+  }
