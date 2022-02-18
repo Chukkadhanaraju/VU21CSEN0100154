@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main(){
+ int age,phone;
+ char name[30],gender[5],ad[50];
+ FILE *fp;
+ fp=fopen("F: data1.txt" ,"a");
+ printf("enter the ad:");
+ scanf("%s",ad);
+ fprintf(fp,"\nad:%s");
+ fclose(fp);
+}
